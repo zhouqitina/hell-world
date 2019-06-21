@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AC0A548FFA136D7E03B4FE4 /* Pods_yaoManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA19B226E4DB498E010CA5FD /* Pods_yaoManager.framework */; };
+		DA157DC722BA979800EC86BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA157DB222BA979800EC86BF /* AppDelegate.m */; };
+		DA157DC822BA979800EC86BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA157DB322BA979800EC86BF /* Assets.xcassets */; };
+		DA157DC922BA979800EC86BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA157DB422BA979800EC86BF /* LaunchScreen.storyboard */; };
+		DA157DCA22BA979800EC86BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA157DB622BA979800EC86BF /* Main.storyboard */; };
+		DA157DCB22BA979800EC86BF /* ZHYaoTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA157DBA22BA979800EC86BF /* ZHYaoTabController.m */; };
+		DA157DCC22BA979800EC86BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA157DBB22BA979800EC86BF /* Info.plist */; };
+		DA157DCD22BA979800EC86BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA157DBC22BA979800EC86BF /* main.m */; };
+		DA157DCE22BA979800EC86BF /* ZHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA157DBF22BA979800EC86BF /* ZHBaseModel.m */; };
+		DA157DCF22BA979800EC86BF /* ZHYaoDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA157DC222BA979800EC86BF /* ZHYaoDayView.m */; };
+		DA157DD022BA979800EC86BF /* ZHYaoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA157DC422BA979800EC86BF /* ZHYaoTableCell.m */; };
+		DA157DD122BA979800EC86BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA157DC622BA979800EC86BF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3834627D319ABADABF478DB2 /* Pods-yaoManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yaoManager.debug.xcconfig"; path = "Target Support Files/Pods-yaoManager/Pods-yaoManager.debug.xcconfig"; sourceTree = "<group>"; };
+		AA19B226E4DB498E010CA5FD /* Pods_yaoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yaoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA157DB122BA979800EC86BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA157DB222BA979800EC86BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA157DB322BA979800EC86BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA157DB522BA979800EC86BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA157DB722BA979800EC86BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA157DB922BA979800EC86BF /* ZHYaoTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYaoTabController.h; sourceTree = "<group>"; };
+		DA157DBA22BA979800EC86BF /* ZHYaoTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYaoTabController.m; sourceTree = "<group>"; };
+		DA157DBB22BA979800EC86BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA157DBC22BA979800EC86BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA157DBE22BA979800EC86BF /* ZHBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBaseModel.h; sourceTree = "<group>"; };
+		DA157DBF22BA979800EC86BF /* ZHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBaseModel.m; sourceTree = "<group>"; };
+		DA157DC122BA979800EC86BF /* ZHYaoDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYaoDayView.h; sourceTree = "<group>"; };
+		DA157DC222BA979800EC86BF /* ZHYaoDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYaoDayView.m; sourceTree = "<group>"; };
+		DA157DC322BA979800EC86BF /* ZHYaoTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYaoTableCell.h; sourceTree = "<group>"; };
+		DA157DC422BA979800EC86BF /* ZHYaoTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYaoTableCell.m; sourceTree = "<group>"; };
+		DA157DC522BA979800EC86BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA157DC622BA979800EC86BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAF60B8D213D8540009217F3 /* yaoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yaoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD735CC3B08D607E0F3E91E9 /* Pods-yaoManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yaoManager.release.xcconfig"; path = "Target Support Files/Pods-yaoManager/Pods-yaoManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF60B8A213D8540009217F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC0A548FFA136D7E03B4FE4 /* Pods_yaoManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974F0D15E86DED29CA20AB40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA19B226E4DB498E010CA5FD /* Pods_yaoManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67F8468292E618FD3160042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3834627D319ABADABF478DB2 /* Pods-yaoManager.debug.xcconfig */,
+				DD735CC3B08D607E0F3E91E9 /* Pods-yaoManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA157DB022BA979800EC86BF /* yaoManager */ = {
+			isa = PBXGroup;
+			children = (
+				DA157DB122BA979800EC86BF /* AppDelegate.h */,
+				DA157DB222BA979800EC86BF /* AppDelegate.m */,
+				DA157DB322BA979800EC86BF /* Assets.xcassets */,
+				DA157DB422BA979800EC86BF /* LaunchScreen.storyboard */,
+				DA157DB622BA979800EC86BF /* Main.storyboard */,
+				DA157DB822BA979800EC86BF /* controller */,
+				DA157DBB22BA979800EC86BF /* Info.plist */,
+				DA157DBC22BA979800EC86BF /* main.m */,
+				DA157DBD22BA979800EC86BF /* model */,
+				DA157DC022BA979800EC86BF /* view */,
+				DA157DC522BA979800EC86BF /* ViewController.h */,
+				DA157DC622BA979800EC86BF /* ViewController.m */,
+			);
+			path = yaoManager;
+			sourceTree = "<group>";
+		};
+		DA157DB822BA979800EC86BF /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA157DB922BA979800EC86BF /* ZHYaoTabController.h */,
+				DA157DBA22BA979800EC86BF /* ZHYaoTabController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		DA157DBD22BA979800EC86BF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DA157DBE22BA979800EC86BF /* ZHBaseModel.h */,
+				DA157DBF22BA979800EC86BF /* ZHBaseModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DA157DC022BA979800EC86BF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DA157DC122BA979800EC86BF /* ZHYaoDayView.h */,
+				DA157DC222BA979800EC86BF /* ZHYaoDayView.m */,
+				DA157DC322BA979800EC86BF /* ZHYaoTableCell.h */,
+				DA157DC422BA979800EC86BF /* ZHYaoTableCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DAF60B84213D8540009217F3 = {
+			isa = PBXGroup;
+			children = (
+				DA157DB022BA979800EC86BF /* yaoManager */,
+				DAF60B8E213D8540009217F3 /* Products */,
+				D67F8468292E618FD3160042 /* Pods */,
+				974F0D15E86DED29CA20AB40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF60B8E213D8540009217F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF60B8D213D8540009217F3 /* yaoManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF60B8C213D8540009217F3 /* yaoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF60BA4213D8540009217F3 /* Build configuration list for PBXNativeTarget "yaoManager" */;
+			buildPhases = (
+				35AAE2373586C2677D38B09A /* [CP] Check Pods Manifest.lock */,
+				DAF60B89213D8540009217F3 /* Sources */,
+				DAF60B8A213D8540009217F3 /* Frameworks */,
+				DAF60B8B213D8540009217F3 /* Resources */,
+				8F833044F279E5474583E759 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yaoManager;
+			productName = "药管家";
+			productReference = DAF60B8D213D8540009217F3 /* yaoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF60B85213D8540009217F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZH;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "周奇";
+				TargetAttributes = {
+					DAF60B8C213D8540009217F3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2BZ6PETD8T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAF60B88213D8540009217F3 /* Build configuration list for PBXProject "yaoManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF60B84213D8540009217F3;
+			productRefGroup = DAF60B8E213D8540009217F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF60B8C213D8540009217F3 /* yaoManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF60B8B213D8540009217F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA157DCC22BA979800EC86BF /* Info.plist in Resources */,
+				DA157DCA22BA979800EC86BF /* Main.storyboard in Resources */,
+				DA157DC822BA979800EC86BF /* Assets.xcassets in Resources */,
+				DA157DC922BA979800EC86BF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35AAE2373586C2677D38B09A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yaoManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F833044F279E5474583E759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yaoManager/Pods-yaoManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yaoManager/Pods-yaoManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF60B89213D8540009217F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA157DD122BA979800EC86BF /* ViewController.m in Sources */,
+				DA157DD022BA979800EC86BF /* ZHYaoTableCell.m in Sources */,
+				DA157DC722BA979800EC86BF /* AppDelegate.m in Sources */,
+				DA157DCD22BA979800EC86BF /* main.m in Sources */,
+				DA157DCE22BA979800EC86BF /* ZHBaseModel.m in Sources */,
+				DA157DCB22BA979800EC86BF /* ZHYaoTabController.m in Sources */,
+				DA157DCF22BA979800EC86BF /* ZHYaoDayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA157DB422BA979800EC86BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA157DB522BA979800EC86BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DA157DB622BA979800EC86BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA157DB722BA979800EC86BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF60BA2213D8540009217F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAF60BA3213D8540009217F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF60BA5213D8540009217F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3834627D319ABADABF478DB2 /* Pods-yaoManager.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BZ6PETD8T;
+				INFOPLIST_FILE = yaoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.one2one.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF60BA6213D8540009217F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD735CC3B08D607E0F3E91E9 /* Pods-yaoManager.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BZ6PETD8T;
+				INFOPLIST_FILE = yaoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.one2one.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF60B88213D8540009217F3 /* Build configuration list for PBXProject "yaoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF60BA2213D8540009217F3 /* Debug */,
+				DAF60BA3213D8540009217F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF60BA4213D8540009217F3 /* Build configuration list for PBXNativeTarget "yaoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF60BA5213D8540009217F3 /* Debug */,
+				DAF60BA6213D8540009217F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF60B85213D8540009217F3 /* Project object */;
+}
